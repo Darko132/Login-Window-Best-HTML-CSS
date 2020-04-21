@@ -1,0 +1,137 @@
+.shadowbox {
+border-radius: 40px 40px;
+opacity: 90%;
+background-image: url(https://papers.co/wallpaper/papers.co-vm07-space-dark-star-night-pattern-6-wallpaper.jpg);
+width: 250px;
+border: 1px solid #333;
+box-shadow: 15px 8px 15px #444;
+padding: 8px 12px;
+border-top: none;
+border-left: none;
+border:none;
+height: 310px;
+margin-top: 100px;
+}
+.pp1 {
+  margin-top: -15px;
+font-size:25px;
+color: white;
+font-family:'Mogra', cursive;
+}
+a {
+  margin-top: 1px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  color: white;
+  border: 2px solid rgba(255,255,255,.4);
+  background: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family:'Mogra', cursive;
+}
+a:before,
+a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+a:before {
+  bottom: 0;
+  left: 0;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+a:after {
+  top: 0;
+  right: 0;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+}
+a:hover:before,
+a:hover:after{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+a:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+a:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+a:hover {background: rgba(255,255,255,.2);}
+.Username {
+color: white;
+font-family:'Mogra', cursive;
+
+}
+.Login{
+border: 50px;
+border-color: black;
+}
+.password {
+color: white;
+font-family:'Mogra', cursive;
+}
+input {
+
+}
+
+    
+input[type=text] {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    background-color: azure;
+    border: 1px solid #555;
+}
+input[type=password] {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    background-color: azure;
+    border: 1px solid #555;
+
+}
+
+.el-checkbox {
+
+  margin-left: 34px;
+  display: flex;
+  align-items: flex-start;
+  font-family:'Mogra', cursive;
+  color:white;
+  font-size: 14px; // менять шрифт здесь, chekcbox всё равно по центру строки
+  
+}
+
+.el-checkbox__input {
+  font-size: 15px;
+  margin-right: 0px;
+  display: flex;
+  align-items: center;
+  height: 14px; // тоже значение, что и высота строки .el-checkbox__label 
+}
+.bb1 {
+
+font-family:'Mogra', cursive;
+}
+span {
+
+margin-top: -4px;
+}
+
+
+
